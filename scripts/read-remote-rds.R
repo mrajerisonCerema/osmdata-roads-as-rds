@@ -6,8 +6,9 @@
 # output : None
 
 source("scripts/helpers.R")
+source("scripts/load_data.R")
 
-insee_com <- "04006"
-nom_com <- "Allos"
-
-f <- read_remote_rds_for_commune(insee_com, nom_com)
+f <- read_remote_rds_for_commune(region = "provence-alpes-cote-d-azur",
+                                 insee_com = "04006",
+                                 nom_com = "Allos", 
+                                 output_dir = "../arretes-circulation-assistant/shinyapp/downloads")
