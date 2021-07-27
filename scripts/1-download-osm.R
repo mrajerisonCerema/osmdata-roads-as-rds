@@ -1,6 +1,7 @@
 # @date : 21 Juillet 2021
-# @desc : télécharge les données OSM depuis GeoFabrik
-# @status : 
+# @desc : télécharge les données OSM zip depuis GeoFabrik
+# @status : pas exécuté
+# post : 2-create-rds-for-region.R
 
 library(glue)
 library(stringr)
