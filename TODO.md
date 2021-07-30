@@ -1,1 +1,2 @@
-- [ ] renommer data-raw en raw
+## 30 Juillet
+- Filtrer les colonnes et remettre Marseille pour avoir taille < 100 Mo
